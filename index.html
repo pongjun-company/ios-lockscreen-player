@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>iOS Lockscreen Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="lockscreen">
+    <img src="album.jpg" alt="Background" class="background-blur" />
+    <div class="overlay">
+      <img src="album.jpg" alt="Album Art" class="album-art" />
+      <div class="track-info">
+        <h2 class="title">노래 제목</h2>
+        <p class="artist">아티스트</p>
+      </div>
+      <div class="progress">
+        <span id="current-time">0:00</span>
+        <input type="range" id="seek-bar" value="0" />
+        <span id="total-time">3:30</span>
+      </div>
+      <div class="controls">
+        <button id="prev">⏮️</button>
+        <button id="
